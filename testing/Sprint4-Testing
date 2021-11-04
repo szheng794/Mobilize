@@ -1,0 +1,97 @@
+Team Mobilize Sprint 4: Testing
+
+
+Team Members: Jay Patel, Asad Noman, Stone Zheng, Prachi Yadav
+
+
+Feature: List questions/posts
+
+User Story: As a user, I want to be able to view a feed of posts.
+
+Scenario: As a user I want to be able to get to 
+
+
+Feature: View a question/post
+
+User Story: As a user, I want to be able to view an individual post.
+
+Scenario: 
+
+
+
+Feature: Create a question/post
+
+User Story: As a user, I want to be able to create a new post.
+
+Scenario: 
+
+
+Feature: Edit an question/post
+
+User Story: As a user, I want to be able to edit individual posts.
+
+Scenario: 
+
+
+Feature: Reply to a question/post
+
+User Story: As a user, I want to be able to reply to posts.
+
+Scenario: 
+
+
+
+Feature: Delete an question/post
+
+User Story: As a user, I want to be able to delete a post.
+
+Scenario: 
+
+
+Feature: Register a user
+
+User Story: As a user, I want to be able to register myself as a user.
+
+Scenario: 
+
+
+
+Feature: User sign-in
+
+User Story: As a user, I want to be able to sign in to use the app.
+
+Scenario: 
+
+
+
+Feature: Searching
+
+User Story: As a user, I want to be able to search for a post.
+
+Scenario: 
+
+
+
+Feature: Filtering (More than 3 stars or less than 60% thumbs down)
+
+User Story: As a user, I want to be able to view a feed of posts filtered by rating field.
+
+Scenario: 
+
+
+Feature: Enforcing a regex to a field other than username/email
+
+User Story: As a user, I want to be able to 
+
+Scenario: 
+
+
+Feature: Vote/Rate (up/down vote, downvote, thumbs up/down, 5-star)
+
+User Story: As a user, I want to be able to rate posts.
+
+Scenario: 
+
+
+
+
