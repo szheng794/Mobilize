@@ -9,6 +9,13 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     </head>
     <body>
+        <nav>
+            <a href="{{ url_for('index')}}">Home</a> ||
+            <a href="{{ url_for('get_posts')}}">My Posts</a> ||
+            <a href="{{ url_for('new_post')}}">Add Post</a>
+        </nav>
+        
+
 
         <h1>Welcome {{ user.name }} to the Mobilize Posting App!</h1>
 

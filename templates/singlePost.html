@@ -4,23 +4,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="UNCC Notes App">
-        <title>UNCC Notes App - View your Note</title>
+        <title>Mobilize Post App - View your Post</title>
         <!-- styles -->
         <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     </head>
     <body>
+      <nav>
+        <a href="{{ url_for('index') }}"> Home</a> ||
+        <a href="{{ url_for('get_posts') }}"> My Posts</a> ||
+        <a href="{{ url_for('new_post') }}"> Add Post</a>
+      </nav>
+      <h1>Welcome {{user.name}} to the Mobilize Post App!</h1>
         <h1>Post Details</h1>
 
         <table>
             <tr>
-                <th>Title</th>
+                <th>Subject</th>
                 <th>Text</th>
                 <th>Date</th>
             </tr>
             <tr>
-                <td>{{ note.title }}</td>
-                <td>{{ note.text }}</td>
-                <td>{{ note.date }}</td>
+                <td>{{ post.subject }}</td>
+                <td>{{ post.text }}</td>
+                <td>{{ post.date }}</td>
             </tr>
         </table>
     </body>
