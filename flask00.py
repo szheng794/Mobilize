@@ -33,6 +33,9 @@ with app.app_context():
 # @app.route is a decorator. It gives the function "index" special powers.
 # In this case it makes it so anyone going to "your-url/" makes this function
 # get called. What it returns is what is shown as the web page
+
+#added
+
 @app.route('/')
 @app.route('/index')
 def index():
